@@ -1,0 +1,27 @@
+{
+  "name": "express-typescript-starter",
+  "version": "1.0.0",
+  "description": "A starter kit for express applications with typescript",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:josemukorivo/express-typescript-starter.git"
+  },
+  "keywords": [],
+  "author": "Joseph Mukorivo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
